@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">SpeedyApp</string>
+
+    <!-- Wichtiger Hinweis-->
+    <string name="important_note">\nWICHTIGER HINWEIS!\n\nDie Beachtung der betrieblichen Vorschriften, Sicherheit und Pünktlichkeit hat stets Vorrang vor den Empfehlungen zum Energiesparenden Fahren.\n</string>
+    <string name="wichtig">Wichtig</string>
+
+    <!-- Beleuchtung-->
+    <string name="beleuchtung_title">Beleuchtungsstufe im Fahrzeug während des Jahres</string>
+
+    <!-- Fahrzeitveränderung -->
+    <string name="erhöhung">Fahrzeiterhöhung bei\nreduzierter Geschwindigkeit</string>
+    <string name="erhöhung_title">Fahrzeiterhöhung bei reduzierter Geschwindigkeit</string>
+    <string name="senkung1">80Km/h\n&#8600;\n60Km/h</string>
+    <string name="senkung2">100Km/h\n&#8600;\n80Km/h</string>
+    <string name="senkung3">120Km/h\n&#8600;\n100Km/h</string>
+    <string name="senkung4">140Km/h\n&#8600;\n120Km/h</string>
+    <string name="senkung5">160Km/h\n&#8600;\n140Km/h</string>
+
+    <!-- Grundsätze -->
+    <string name="grund">\nGrundsätze energiesparendes Fahren\n</string>
+    <string name="grund1">Zügig Anfahren</string>
+    <string name="grund2">Zwischengeschwindigkeiten halten</string>
+    <string name="grund3">Geschwindigkeitsspitzen vermeiden (Trapezfahrt)</string>
+    <string name="grund4">Fahrzeitreserven durch geminderte Höchstgeschwindigkeiten nutzen (140 statt 160 bei 1 km = ca. 3 Sekunden)</string>
+    <string name="grund5">Beharrungsfahrt mit gleichmäßiger Geschwindigkeit fahren</string>
+    <string name="grund6">Vor einer Kuppe rechtzeitig ausrollen</string>
+    <string name="grund7">Optimierung des Zeitpunkts zum Übergang in die Ausrollphase</string>
+    <string name="grund8">Pünktlich zur Abfahrtszeit die Türen schließen</string>
+    <string name="grund9">Die dynamische Bremse für Geschwindigkeitswechsel nutzen</string>
+    <string name="grund10">Zwischenkreis nicht unnötig geladen lassen</string>
+
+    <!-- Klima-->
+    <string name="klima_title">Klimaanlage bei Abstellung</string>
+    <!-- Messstelle-->
+    <string name="mess_title">DB-Netz Messstelle für Pünktlichkeit</string>
+    <!-- Linien -->
+    <string name="re4_1">RE4\nHB - AH</string>
+    <string name="re4_2">RE4\nAH - HB</string>
+    <string name="rb41_1">RB41\nHB - AH</string>
+    <string name="rb41_2">RB41\nAH - HB</string>
+    <string name="re3_1">RE3\nHU - AH</string>
+    <string name="re3_2">RE3\nAH - HU</string>
+    <string name="rb31_1">RB31\nHU - AH</string>
+    <string name="rb31_2">RB31\nAH - HU</string>
+    <string name="re2_1">RE2\nHG - HH</string>
+    <string name="re2_2">RE2\nHH - HG</string>
+    <string name="re2_3">RE2\nHH - HU</string>
+    <string name="re2_4">RE2\nHU - HH</string>
+    <string name="re30_1">RE30\nHH - HWOB</string>
+    <string name="re30_2">RE30\nHWOB - HH</string>
+    <string name="re50_1">RE50\nHHI - HWOB</string>
+    <string name="re50_2">RE50\nHWOB - HHI</string>
+
+    <!-- Fahrempfehlungen -->
+    <string name="ausfahrgeschw">Ausfahrgeschw.\nbeachten!</string>
+    <string name="vmax">Vmax</string>
+    <string name="messpunkt">Mess-\npunkt</string>
+    <string name="ausrollen">ausrollen,\nnach\nerreichen</string>
+    <string name="bemerk">Bemerkung</string>
+    <string name="schmiedekamp">Ab Abzw\nSchmiedekamp\n70 Km/h halten</string>
+    <string name="nausrollen">Nicht\nausrollen</string>
+    <string name="lehrte">Berghoch ab\n120 Km/h rollen,\nbergab auf Vmax\nbeschleunigen!</string>
+    <string name="scheeßel">Gleiswechsel\n ab Scheeßel</string>
+    <string name="esig">Esig</string>
+    <string name="sbk70">SBK 70</string>
+    <string name="albgwest">Einfahrt\nALBG-W\nbeachten!</string>
+
+    <!-- Bahnhöfe -->
+    <string name="HG">Göttingen</string>
+    <string name="HBTN">Banteln</string>
+    <string name="HALF">Alfeld</string>
+    <string name="HK">Kreiensen</string>
+    <string name="HEB">Einbeck-\nSalzderhelden</string>
+    <string name="HN">Northeim</string>
+    <string name="HNTH">Nörten-\nHardenberg</string>
+    <string name="HELZ">Elze</string>
+    <string name="HFRE">Freden</string>
+    <string name="HNOS">Nordstemmen</string>
+    <string name="HSRD">Sarstedt</string>
+    <string name="HH">Hannover\nHbf</string>
+    <string name="HSUD">Suderburg</string>
+    <string name="HIHG">Isernhagen</string>
+    <string name="HLGM">Langenhagen-\nMitte</string>
+    <string name="HESD">Eschede</string>
+    <string name="HUNL">Unterlüß</string>
+    <string name="HC">Celle</string>
+    <string name="HGBW">Großburgwedel</string>
+    <string name="HU">Uelzen</string>
+    <string name="AH">Hamburg\nHbf</string>
+    <string name="AHAR">Hamburg\nHarburg</string>
+    <string name="AHIF">Hittfeld</string>
+    <string name="AMDH">Meckelfeld</string>
+    <string name="AMA">Maschen</string>
+    <string name="ASTE">Stelle</string>
+    <string name="AASN">Ashausen</string>
+    <string name="AWI">Winsen\n(Luhe)</string>
+    <string name="ARH">Radbruch</string>
+    <string name="ABAD">Bardowick</string>
+    <string name="ALBG">Lüneburg</string>
+    <string name="ABIL">Bienenbüttel</string>
+    <string name="ABVS">Bad\nBevensen</string>
+    <string name="AKC">Klecken</string>
+    <string name="ABLZ">Buchholz\n(Nordheide)</string>
+    <string name="ASP">Sprötze</string>
+    <string name="ATST">Tostedt</string>
+    <string name="ALUB">Lauenbrück</string>
+    <string name="ASL">Scheeßel</string>
+    <string name="AROG">Rotenburg\n(Wümme)</string>
+    <string name="AS">Sottrum</string>
+    <string name="AOBG">Ottersberg</string>
+    <string name="ASAG">Sagehorn</string>
+    <string name="HBON">Bremen\nOberneuland</string>
+    <string name="HB">Bremen\nHbf</string>
+    <string name="HLER">Lehrte</string>
+    <string name="HIMS">Immensen-\nArpke</string>
+    <string name="HDOG">Dollbergen</string>
+    <string name="HDEH">Dedenhausen</string>
+    <string name="HMRS">Meinersen</string>
+    <string name="HLFG">Leiferde</string>
+    <string name="HGI">Gifhorn</string>
+    <string name="HCAL">Calberlah</string>
+    <string name="HF">Fallersleben</string>
+    <string name="HWOB">Wolfsburg\nHbf</string>
+    <string name="HWED">Weddel</string>
+    <string name="HBS">Braunschweig\nHbf</string>
+    <string name="HBST">Lengede-\nBroistedt</string>
+    <string name="HWWI">Woltwiesche</string>
+    <string name="HHEG">Hohen-\neggelsen</string>
+    <string name="HHI">Hildesheim\nHbf</string>
+    <string name="HGGL">Groß\nGleidingen</string>
+</resources>

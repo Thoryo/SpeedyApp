@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MessstelleActivity">
+
+    <GridLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:layout_gravity="center"
+        android:rowCount="20"
+        android:columnCount="4">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/darkgrey"
+            android:layout_columnSpan="4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textAllCaps="false"
+            android:layout_margin="1pt"
+            android:layout_gravity="fill"
+            android:text="@string/mess_title"
+            android:drawableLeft="@drawable/watch_24"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_rowSpan="2"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_margin="1pt"
+            android:layout_marginRight="1pt"
+            android:layout_marginLeft="10dp"
+            android:background="@color/darkgrey"
+            android:drawableLeft="@drawable/watch_24"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/darkgrey"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill"
+            android:textAllCaps="false"
+            android:layout_margin="1pt"
+            android:text="> 3 Min"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/darkgrey"
+            android:layout_gravity="fill"
+            android:textAllCaps="false"
+            android:layout_margin="1pt"
+            android:layout_marginRight="10dp"
+            android:text="> 15 Min"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/darkgrey"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill"
+            android:textAllCaps="false"
+            android:layout_margin="1pt"
+            android:text="> 5 Min"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/darkgrey"
+            android:layout_gravity="fill"
+            android:textAllCaps="false"
+            android:layout_margin="1pt"
+            android:layout_marginRight="10dp"
+            android:text="> 60 Min"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            />
+
+    </GridLayout>
+
+</ScrollView>

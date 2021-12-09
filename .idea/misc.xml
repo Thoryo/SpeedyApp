@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable-v24/_speed_60.xml" value="0.1" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1046875" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable-v24/watch_24_blue.xml" value="0.1" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable/_speed_24.xml" value="0.1" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable/_speed_60.xml" value="0.1" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable/ac_unit_24.xml" value="0.1" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable/background_bg.xml" value="0.1046875" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable/description_24.xml" value="0.1" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable/down_10.xml" value="0.1" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable/error_100.xml" value="0.1046875" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable/home_24.xml" value="0.1" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable/ic_enno_nahverkehr_vector_logo.xml" value="0.1046875" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1046875" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1046875" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable/railway_24.xml" value="0.1046875" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable/railway_engrey_24.xml" value="0.1" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable/railway_meblue_24.xml" value="0.1" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable/reply_24.xml" value="0.1" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable/roundedbutton.xml" value="0.18611111111111112" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable/roundedbuttondarkgrey.xml" value="0.1046875" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable/roundedbuttonlightgreen.xml" value="0.18611111111111112" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable/roundedbuttonlightgrey.xml" value="0.18611111111111112" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable/shutter_speed_24.xml" value="0.1" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable/thumb_up_24.xml" value="0.1" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable/watch_24.xml" value="0.1" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/drawable/watch_ennopurple.xml" value="0.1" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_beleuchtung.xml" value="0.2" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_fahrempf_enno.xml" value="0.1" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_fahrempfehlung.xml" value="0.18" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_fahrempfme.xml" value="0.18" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_grund.xml" value="0.20718232044198895" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_important_note.xml" value="0.14365152919369786" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_impressum.xml" value="0.1" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_klima.xml" value="0.25" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_messstelle.xml" value="0.1" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_rb31ahhu.xml" value="0.22" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_rb31huah.xml" value="0.22" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_rb41ahhb.xml" value="0.22" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_rb41hbah.xml" value="0.25" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_re2_hghh.xml" value="0.22" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_re2hhhg.xml" value="0.22481751824817517" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_re2hhhu.xml" value="0.22" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_re2huhh.xml" value="0.25" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_re30hhhwob.xml" value="0.22" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_re30hwobhh.xml" value="0.25" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_re3ahhu.xml" value="0.22" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_re3hhhu.xml" value="0.1" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_re3huah.xml" value="0.22" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_re4ahhb.xml" value="0.33" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_re4hbah.xml" value="0.33" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_re50hhihwob.xml" value="0.22" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_re50hwobhhi.xml" value="0.22" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/activity_reduzierung.xml" value="0.33" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/Jens/AndroidStudioProjects/SpeedyApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

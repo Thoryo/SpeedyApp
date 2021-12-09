@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.speedyapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SpeedyApp">
+        <activity
+            android:name=".Rb31ahhuActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Rb31huahActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Re2huhhActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Re2hhhuActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Re3ahhuActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Re3huahActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Rb41ahhbActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Rb41hbahActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Re4ahhbActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Re4hbahActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Re30hhhwobActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Re30hwobhhActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Re50hwobhhiActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Re50hhihwobActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ImpressumActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Re2hhhgActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Re2HghhActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FahrempfEnnoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FahrempfmeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ReduzierungActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FahrempfehlungActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BeleuchtungActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MessstelleActivity"
+            android:exported="true" />
+        <activity
+            android:name=".KlimaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GrundActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ImportantNoteActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
