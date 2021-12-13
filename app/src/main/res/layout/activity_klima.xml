@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,30 +7,30 @@
     tools:context=".KlimaActivity">
 
     <GridLayout
-        android:layout_marginTop="20dp"
+        android:id="@+id/root"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/black"
-        android:rowCount="20"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/black"
         android:columnCount="4"
-        android:id="@+id/root">
+        android:rowCount="20">
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/white"
             android:layout_columnSpan="4"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
-            android:textAllCaps="false"
-            android:layout_margin="1pt"
             android:layout_gravity="fill"
+            android:layout_margin="1pt"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/white"
             android:text="@string/klima_title"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textStyle="bold"
-            android:textSize="16sp"/>
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btnaprsep"
@@ -42,63 +41,61 @@
             android:layout_column="0"
             android:layout_gravity="fill"
             android:layout_margin="1pt"
-            android:layout_marginRight="1pt"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="1pt"
             android:background="@color/steelgrey"
             android:text="Tages-\nabstellung"
-            android:textColor="@color/white"
             android:textAllCaps="false"
-            android:textSize="10dp" />
+            android:textColor="@color/white"
+            android:textSize="11sp" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/white"
             android:layout_columnSpan="2"
             android:layout_gravity="fill"
-            android:textAllCaps="false"
             android:layout_margin="1pt"
+            android:background="@color/white"
             android:text="Sep - Mai"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="10dp"
-            />
+            android:textSize="11sp" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/white"
             android:layout_gravity="fill"
-            android:textAllCaps="false"
             android:layout_margin="1pt"
-            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/white"
             android:text="FB Klima auf [1/4]"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="10dp"
-            />
+            android:textSize="11sp" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/white"
             android:layout_columnSpan="2"
             android:layout_gravity="fill"
-            android:textAllCaps="false"
             android:layout_margin="1pt"
+            android:background="@color/white"
             android:text="Jun, Jul, Aug"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="10dp"
-            />
+            android:textSize="11sp" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/white"
             android:layout_gravity="fill"
-            android:textAllCaps="false"
             android:layout_margin="1pt"
-            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/white"
             android:text="Klima auf [1]"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="10dp"
-            />
+            android:textSize="11sp" />
 
 
         <Button
@@ -108,37 +105,37 @@
             android:layout_column="0"
             android:layout_gravity="fill"
             android:layout_margin="1pt"
-            android:layout_marginRight="1pt"
-            android:layout_marginLeft="10dp"
-            android:text="Nacht-\nabstellung\nV1 > V2"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="1pt"
             android:background="@color/white"
-            android:textColor="@color/white"
+            android:text="Nacht-\nabstellung\nV1 > V2"
             android:textAllCaps="false"
-            android:textSize="10dp" />
+            android:textColor="@color/white"
+            android:textSize="11sp" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/white"
             android:layout_columnSpan="2"
             android:layout_gravity="fill"
-            android:textAllCaps="false"
             android:layout_margin="1pt"
+            android:background="@color/white"
             android:text="ganzjährig"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="10dp"
-            />
+            android:textSize="11sp" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/white"
             android:layout_gravity="fill"
-            android:textAllCaps="false"
             android:layout_margin="1pt"
-            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/white"
             android:text="FB Klima auf [1/4]"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="10dp"
-            />
+            android:textSize="11sp" />
 
     </GridLayout>
 

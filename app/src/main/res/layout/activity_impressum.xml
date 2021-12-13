@@ -1,24 +1,46 @@
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
     tools:context=".ImpressumActivity">
+
     <GridLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="2">
+
         <TextView
-            android:textStyle="italic"
-            android:textSize="24sp"
+            android:layout_columnWeight="1"
+            android:text="Ersteller:"
             android:textColor="@color/ennopurpur"
-            android:text="Ersteller:"/>
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
         <TextView
-            android:textStyle="italic"
-            android:textSize="24sp"
+            android:layout_columnWeight="1"
+            android:text="Jens Brüning"
             android:textColor="@color/ennopurpur"
-            android:text="Jens Brüning"/>
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="239dp"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/bruening" />
+
+        <TextView
+            android:layout_columnSpan="2"
+            android:layout_gravity="center"
+            android:text="Viel Spaß damit."
+            android:textColor="@color/ennopurpur"
+            android:textSize="24dp"
+            android:textStyle="italic" />
     </GridLayout>
 
 

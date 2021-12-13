@@ -1,7 +1,7 @@
 package com.example.speedyapp
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 
 class KlimaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

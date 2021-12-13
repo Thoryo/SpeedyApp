@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">SpeedyApp</string>
+    <string name="me">Metronom</string>
+    <string name="enno">Enno</string>
 
     <!-- Wichtiger Hinweis-->
+    <string name="important">Wichtiger Hinweis!</string>
     <string name="important_note">\nWICHTIGER HINWEIS!\n\nDie Beachtung der betrieblichen Vorschriften, Sicherheit und Pünktlichkeit hat stets Vorrang vor den Empfehlungen zum Energiesparenden Fahren.\n</string>
     <string name="wichtig">Wichtig</string>
 
@@ -53,6 +56,7 @@
     <string name="re50_2">RE50\nHWOB - HHI</string>
 
     <!-- Fahrempfehlungen -->
+    <string name="fahrempf">Fahrempfehlungen</string>
     <string name="ausfahrgeschw">Ausfahrgeschw.\nbeachten!</string>
     <string name="vmax">Vmax</string>
     <string name="messpunkt">Mess-\npunkt</string>

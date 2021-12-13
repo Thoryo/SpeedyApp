@@ -1,284 +1,304 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
     tools:context=".GrundActivity">
+
     <GridLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/black"
         android:layout_gravity="center"
+        android:background="@color/black"
         android:columnCount="2">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:background="@color/red"
+            android:layout_columnSpan="2"
             android:layout_gravity="fill"
-            android:textStyle="bold"
-            android:text="@string/grund"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/red"
             android:gravity="center"
             android:padding="3dp"
+            android:text="@string/grund"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
             android:textSize="14sp"
-            android:layout_columnSpan="2"
-            android:textColor="@color/white"
-            android:layout_marginLeft="2dp"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="4dp"/>
+            android:textStyle="bold" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:background="@color/darkgrey"
             android:layout_gravity="fill"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/darkgrey"
+            android:padding="3dp"
             android:text="01."
-            android:padding="3dp"
-            android:textSize="12sp"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:layout_marginLeft="2dp"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="4dp"/>
+            android:textSize="12sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:background="@color/darkgrey"
             android:layout_gravity="fill"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/darkgrey"
+            android:padding="3dp"
             android:text="@string/grund1"
-            android:padding="3dp"
-            android:textSize="12sp"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="4dp"/>
+            android:textSize="12sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:background="@color/darkgrey"
             android:layout_gravity="fill"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/darkgrey"
+            android:padding="3dp"
             android:text="02."
-            android:padding="3dp"
-            android:textSize="12sp"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:layout_marginLeft="2dp"
-android:layout_marginRight="2dp"
-android:layout_marginBottom="4dp"/>
+            android:textSize="12sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:background="@color/darkgrey"
             android:layout_gravity="fill"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/darkgrey"
+            android:padding="3dp"
             android:text="@string/grund2"
-            android:padding="3dp"
-            android:textSize="12sp"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="4dp"/>
+            android:textSize="12sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:background="@color/darkgrey"
             android:layout_gravity="fill"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/darkgrey"
+            android:padding="3dp"
             android:text="03."
-            android:padding="3dp"
-            android:textSize="12sp"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:layout_marginLeft="2dp"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="4dp"/>
+            android:textSize="12sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:background="@color/darkgrey"
             android:layout_gravity="fill"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/darkgrey"
+            android:padding="3dp"
             android:text="@string/grund3"
-            android:padding="3dp"
-            android:textSize="12sp"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="4dp"/>
+            android:textSize="12sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:background="@color/darkgrey"
             android:layout_gravity="fill"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/darkgrey"
+            android:padding="3dp"
             android:text="04."
-            android:padding="3dp"
-            android:textSize="12sp"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:layout_marginLeft="2dp"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="4dp"/>
+            android:textSize="12sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:background="@color/darkgrey"
             android:layout_gravity="fill"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/darkgrey"
+            android:padding="3dp"
             android:text="@string/grund4"
-            android:padding="3dp"
-            android:textSize="12sp"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="4dp"/>
+            android:textSize="12sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:background="@color/darkgrey"
             android:layout_gravity="fill"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/darkgrey"
+            android:padding="3dp"
             android:text="05."
-            android:padding="3dp"
-            android:textSize="12sp"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:layout_marginLeft="2dp"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="4dp"/>
+            android:textSize="12sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:background="@color/darkgrey"
             android:layout_gravity="fill"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/darkgrey"
+            android:padding="3dp"
             android:text="@string/grund5"
-            android:padding="3dp"
-            android:textSize="12sp"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="4dp"/>
+            android:textSize="12sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:background="@color/darkgrey"
             android:layout_gravity="fill"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/darkgrey"
+            android:padding="3dp"
             android:text="06."
-            android:padding="3dp"
-            android:textSize="12sp"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:layout_marginLeft="2dp"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="4dp"/>
+            android:textSize="12sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:background="@color/darkgrey"
             android:layout_gravity="fill"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/darkgrey"
+            android:padding="3dp"
             android:text="@string/grund6"
-            android:padding="3dp"
-            android:textSize="12sp"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="4dp"/>
+            android:textSize="12sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:background="@color/darkgrey"
             android:layout_gravity="fill"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/darkgrey"
+            android:padding="3dp"
             android:text="07."
-            android:padding="3dp"
-            android:textSize="12sp"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:layout_marginLeft="2dp"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="4dp"/>
+            android:textSize="12sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:background="@color/darkgrey"
             android:layout_gravity="fill"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/darkgrey"
+            android:padding="3dp"
             android:text="@string/grund7"
-            android:padding="3dp"
-            android:textSize="12sp"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="4dp"/>
+            android:textSize="12sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:background="@color/darkgrey"
             android:layout_gravity="fill"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/darkgrey"
+            android:padding="3dp"
             android:text="08."
-            android:padding="3dp"
-            android:textSize="12sp"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:layout_marginLeft="2dp"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="4dp"/>
+            android:textSize="12sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:background="@color/darkgrey"
             android:layout_gravity="fill"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/darkgrey"
+            android:padding="3dp"
             android:text="@string/grund8"
-            android:padding="3dp"
-            android:textSize="12sp"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="4dp"/>
+            android:textSize="12sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:background="@color/darkgrey"
             android:layout_gravity="fill"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/darkgrey"
+            android:padding="3dp"
             android:text="09."
-            android:padding="3dp"
-            android:textSize="12sp"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:layout_marginLeft="2dp"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="4dp"/>
+            android:textSize="12sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:background="@color/darkgrey"
             android:layout_gravity="fill"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/darkgrey"
+            android:padding="3dp"
             android:text="@string/grund9"
-            android:padding="3dp"
-            android:textSize="12sp"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="4dp"/>
+            android:textSize="12sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:background="@color/darkgrey"
             android:layout_gravity="fill"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/darkgrey"
+            android:padding="3dp"
             android:text="10."
-            android:padding="3dp"
-            android:textSize="12sp"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:layout_marginLeft="2dp"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="4dp"/>
+            android:textSize="12sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:background="@color/darkgrey"
             android:layout_gravity="fill"
-            android:text="@string/grund10"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/darkgrey"
             android:padding="3dp"
-            android:textSize="12sp"
+            android:text="@string/grund10"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="4dp"/>
+            android:textSize="12sp" />
 
 
     </GridLayout>

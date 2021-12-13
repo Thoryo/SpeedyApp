@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,31 +7,31 @@
     tools:context=".MessstelleActivity">
 
     <GridLayout
-        android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/black"
         android:layout_gravity="center"
-        android:rowCount="20"
-        android:columnCount="4">
+        android:layout_marginTop="20dp"
+        android:background="@color/black"
+        android:columnCount="4"
+        android:rowCount="20">
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/darkgrey"
             android:layout_columnSpan="4"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
-            android:textAllCaps="false"
-            android:layout_margin="1pt"
             android:layout_gravity="fill"
-            android:text="@string/mess_title"
+            android:layout_margin="1pt"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/darkgrey"
             android:drawableLeft="@drawable/watch_24"
+            android:text="@string/mess_title"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textStyle="bold"
             android:textSize="16sp"
-            />
+            android:textStyle="bold" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -41,62 +40,58 @@
             android:layout_column="0"
             android:layout_gravity="fill"
             android:layout_margin="1pt"
-            android:layout_marginRight="1pt"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="1pt"
             android:background="@color/darkgrey"
-            android:drawableLeft="@drawable/watch_24"
-            android:textColor="@color/white"
-            android:textAllCaps="false"
-            android:textSize="10dp"
-            />
+            android:drawableLeft="@drawable/watch_24" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/darkgrey"
             android:layout_columnSpan="2"
             android:layout_gravity="fill"
-            android:textAllCaps="false"
             android:layout_margin="1pt"
+            android:background="@color/darkgrey"
             android:text="> 3 Min"
-            android:textColor="@color/white"
-            android:textSize="10dp"
-            />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@color/darkgrey"
-            android:layout_gravity="fill"
             android:textAllCaps="false"
-            android:layout_margin="1pt"
-            android:layout_marginRight="10dp"
-            android:text="> 15 Min"
             android:textColor="@color/white"
-            android:textSize="10dp"
-            />
+            android:textSize="11sp" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_margin="1pt"
+            android:layout_marginEnd="10dp"
             android:background="@color/darkgrey"
+            android:text="> 15 Min"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="11sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_columnSpan="2"
             android:layout_gravity="fill"
-            android:textAllCaps="false"
             android:layout_margin="1pt"
+            android:background="@color/darkgrey"
             android:text="> 5 Min"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="10dp"
-            />
+            android:textSize="11sp" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/darkgrey"
             android:layout_gravity="fill"
-            android:textAllCaps="false"
             android:layout_margin="1pt"
-            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/darkgrey"
             android:text="> 60 Min"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="10dp"
-            />
+            android:textSize="11sp" />
 
     </GridLayout>
 
